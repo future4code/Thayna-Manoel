@@ -1,0 +1,2 @@
+# Aprendizados da semana
+Minha semana de estudos se inicio com uma atividade que considero bastante desafiadora, ate agora ainda estou pensando sobre ela, pois me senti um pouco frustrada por não ter realizado ela 100% mas feliz por ter encarado esse desafio ate o final.Aprender TERMINAL e GIT tem sido apesar de complicado um desafio mas estou amando o curso **Labenu**! todos estão sempre prontos para tirar alguma duvida, isso tem me motivado muito, sigo ansiosa para as proximas semanas.
