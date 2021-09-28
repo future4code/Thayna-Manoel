@@ -70,5 +70,12 @@ console.log("indice do Abacaxi:" , frutas.indexOf("Abacaxi"), frutas.length) */
 
 
 
-
+const pokemons = [
+    {nome: 'bullbasaur', tipo: 'grama'},
+    {nome: 'charmander' , tipo :'fogo'},
+    {nome: ' squirtle', tipo :'agua'}
+]
+for (const pkmn of pokemons) {
+    console.log (`${plmmn.nome}') é de ${pkmn.tipo}`)
+}
 
