@@ -12,12 +12,20 @@ return arrayInvertida
 
 // EXERCÍCIO 02
 function retornaNumerosParesElevadosADois(array) {
+  let numerosParesElevados2 = []
+  for(let item of array){
+    if (item % 2 == 0){
+      let elevadoPor2 = item * item
+      numerosParesElevados2.push(elevadoPor2)
 
+  }
+}
+  return numerosParesElevados2
 }
 
 // EXERCÍCIO 03
 function retornaNumerosPares(array) {
-
+  
 }
 
 // EXERCÍCIO 04
