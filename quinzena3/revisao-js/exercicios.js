@@ -25,12 +25,24 @@ function retornaNumerosParesElevadosADois(array) {
 
 // EXERCÍCIO 03
 function retornaNumerosPares(array) {
-  
+let numerosPares = array.filter((arrayPa) => {
+  return arrayPa % 2 === 0
+})
+return numerosPares
+
 }
 
 // EXERCÍCIO 04
 function retornaMaiorNumero(array) {
-
+  let maiorNumero = array[0]
+  for(let i = 0; i < array.length; i++){
+    let numeroDaVez = numeros[i]
+    if(numeroDaVez > maiorNumero){
+      maiorNumero = numeroDaVez
+    
+    }
+  }
+  return maiorNumero
 }
 
 // EXERCÍCIO 05
