@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: 'open sans', sans-serif;
+}
+
+
+#menu-centralizado ul{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    background-image: linear-gradient(to top left,rgb(8, 1, 9), rgb(151, 200, 192));
+   
+}
+
+#menu-centralizado ul li {
+    display: inline;
+    
+}
+
+#menu-centralizado ul li a{
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .6s ;
+}
+
+#menu-centralizado ul li a:hover {
+    background-color: rgb(151, 200, 192) ;
+}
+
+#container{
+ display: flex;
+ justify-content:center;
+    }
+
+    #header{
+        border: center;
+    }
+
+
+    #bolos-de-chocolate {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        padding:15px ;
+        gap: 20px;
+    }
+    
+    #card-bolo {
+        text-align: center;
+        box-shadow: darkgray;
+        border-style:outset;
+    }    
+
+    
