@@ -54,3 +54,19 @@ footer {
     height: 60px;
     flex-grow: 0;
 }
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+
+
+
+    #imagem-video{
+        display: grid;
+        grid-template-columns: 1fr ;
+        
+
+    }
+
+    
+    }
+    
