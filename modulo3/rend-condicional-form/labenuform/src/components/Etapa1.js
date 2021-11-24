@@ -10,7 +10,10 @@ class Etapa1 extends React.Component {
         <input/>
         <p>Qual sua idade?</p>
         <input/>
-        <p>Qual Sua escolaridade?</p>
+        <p>Qual seu E-mail?</p>
+        <input/>
+
+        <p>Qual a sua escolaridade?</p>
         <select>
             <option>Ensino médio incompleto</option>;
             <option>Ensino médio completo</option>;
