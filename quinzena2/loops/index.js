@@ -11,11 +11,13 @@
  2. Leia o código abaixo:
 
 a) O que vai ser impresso no console? */
-/* 19
+
+19
 21
 23
 27
-30 */
+30
+
 
 //b) Se eu quisesse acessar o **índice** de cada elemento dessa lista, o `for...of...` é suficiente? Se não, o que poderia ser usado para fazer isso? */ 
 // para acessar o indice de cada elemento desssa lista , a melhor maneira seria usando o for...of
@@ -103,6 +105,5 @@ const maiorNumero = arrayOriginal => {
 
 return numeroEmAnalise
 }
+
 console.log("o menor numero da array é" ,numeroEmAnalise) */
-
-
