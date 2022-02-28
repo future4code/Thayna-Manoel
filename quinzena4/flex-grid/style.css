@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#page-grid-container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 70px 1fr 70px;
+}
+
+header {
+    background-color: mediumvioletred;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 10px;
+    align-items: center;
+}
+
+main {
+    background-color: lightyellow;
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+}
+
+nav {
+    background-color: #f2d0e0;
+    display: flex ;
+    justify-content: space-between;
+    
+
+    
+    
+    ;
+     
+    
+    
+
+}
+
+#bolos-de-chocolate {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    padding:15px ;
+    gap: 20px;
+}
+
+#card-bolo {
+    text-align: center;
+    box-shadow: darkgray;
+    border-style:outset;
+
+
+} 
+
+
+
+
+footer {
+    background-color: mediumvioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+
+    
+
+
+}
+
+button {
+    justify-self: end;
+}
