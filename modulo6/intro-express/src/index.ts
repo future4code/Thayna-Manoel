@@ -1,25 +1,54 @@
-import express, { response } from 'express'
+import express, { Request, Response  } from 'express'
 import cors from 'cors'
+import { users, posts } from "./data";
 
 const app= express()
 
 app.use(express.json())
 app.use(cors())
 
-//exercicio1
 
-app.get("/", (request,response) => {
-response.send("hello from Express!")
+app.get("/", (req: Request, res: Response) => {  
+res.send("hello from Express!")
 })
 
-//exercicio2
-//exercicio3
-//exercicio4
-//exercicio5
-//exercicio6
-//exercicio7
-//exercicio8
 
+app.get("/users", (req: Request, res: Response) => {
+  const usuarios = users.map((users) => users)
+
+  res.send(usuarios)
+})
+
+
+// é melhor criar o arrays de posts fora de usuarios, pois achei que ficaria mto confuso se coloca-se dentro.
+
+
+app.get("/posts", (req: Request, res: Response) => {
+   const getPosts = users.map((users) => {
+
+  return users.posts
+    }).flat(1)
+
+
+   res.send(getPosts)
+ })
+
+
+
+// app.get("/postsPorId", (req: Request, res: Response) => {
+//   const idusers = Number(req.query.id);
+
+//   let usersPosts
+
+//   users.forEach(post => {
+//     if (post.id === idusers) {
+//       usersPosts = post.post
+//     }
+//   })
+
+//   res.send(usersPosts)
+
+// })
 
 
 
