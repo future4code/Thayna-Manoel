@@ -35,20 +35,6 @@ app.get("/posts", (req: Request, res: Response) => {
 
 
 
-// app.get("/postsPorId", (req: Request, res: Response) => {
-//   const idusers = Number(req.query.id);
-
-//   let usersPosts
-
-//   users.forEach(post => {
-//     if (post.id === idusers) {
-//       usersPosts = post.post
-//     }
-//   })
-
-//   res.send(usersPosts)
-
-// })
 
 
 
