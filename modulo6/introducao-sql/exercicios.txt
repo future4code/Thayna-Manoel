@@ -1,0 +1,79 @@
+### Exercício 1
+a)
+VARCHAR = strings de no máximo n caracteres
+PRIMARY KEY= primeira chave
+FLOAT=números não inteiros
+NOT NULL= não deve ser nula
+DATE= representa uma data
+
+
+b) O SHOW database sobre meu banco de daros e tabela, (joy-419996-thayna-manoel,actor)
+
+c)ele ira descrever a tabela criada. o campo field descreve os nomes e o typos adicionados , dizendo se pode ser null ou não , e qual tipo de chave ele é , dizendo se tem valores padroes
+
+### Exercício 2
+
+a)```
+INSERT INTO Actor (id, name, salary, birth_date, gender)
+VALUES(
+  "002", 
+  "Glória Pires",
+   "1.200.000",
+  "1968-08-23", 
+  "feminine"
+);
+```
+
+
+b)O erro ocorreu por já possuir um item com essa chave
+
+c) Contagem da coluna não corresponde ao valor contado na linha 1
+
+d) Campo "name" não tem um valor definido
+
+e)  Valor da data incorreto
+
+f)```
+INSERT INTO Actor (id, name, salary, birth_date, gender)
+VALUES(
+  "007", 
+  "Selton Mello",
+  800000,
+  "1972-12-30", 
+  "male"
+```
+
+### Exercício 3
+a)
+```
+SELECT * FROM Actor 
+WHERE gender = "female";
+```
+
+b)
+```
+SELECT salary from Actor 
+WHERE name = "Tony Ramos";
+```
+
+c)
+```
+SELECT * FROM Actor 
+WHERE gender = "invalid";
+```
+
+d)
+```
+SELECT id, name, salary FROM Actor 
+WHERE salary < 500000;
+```
+e)Valor "nome" não existe na lista 
+
+
+### Exercício 4
+
+a) 
+
+### Exercício 5
+### Exercício 6
+### Exercício 7
