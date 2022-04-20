@@ -1,0 +1,30 @@
+# PARA REQUISIÇÕES COM BODY:
+# Content-Type: application/json
+# PULE 1 LINHA
+# {}
+
+# PARA REQUISIÇÕES COM HEADERS:
+# Authorization: "token"
+
+// enpoint buscar atores
+
+GET http://localhost:3003/actor
+
+
+// enpoint buscar por genero
+GET http://localhost:3003/actor?gender=female
+
+// enpoint criar ator
+
+PUT  http://localhost:3003/actor
+Content-Type: application/json
+
+{
+  "name":"thayna",
+  "salary": 5000,
+  "birthDate": "1995-10-28",
+  "gender":"female"
+}
+
+
+
