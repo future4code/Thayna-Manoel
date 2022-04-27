@@ -1,24 +1,7 @@
+import { app } from "./app";
+import { getAllRecipes } from "./endpoints/getAllRecipes";
+import { getAllUsers } from "./endpoints/getAllUsers";
 
-import express, { Request, Response } from 'express';
-import cors from 'cors';
+app.get("/recipes", getAllRecipes)
 
-const app = express();
-
-app.use(express.json()); 
-app.use(cors()); 
-
-
-
-
-app.get('/', (request: Request, response: Response) => {
-
-response.send('Hello,word')
-
-});
-
-
-
-
-app.listen(3003, () => {
-   console.log('Server rodando...');
-});
+app.get("/users", getAllUsers)
